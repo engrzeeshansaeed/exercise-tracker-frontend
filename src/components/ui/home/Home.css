@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left_container {
+  width: 50%;
+  margin-top: 200px;
+  margin-right: 250px;
+}
+
+.right_container {
+  margin-top: 140px;
+  margin-right: 50px;
+}
+
+.home_img {
+  width: 350px;
+  height: 350px;
+}

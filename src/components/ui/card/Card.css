@@ -1,0 +1,59 @@
+/* Float four columns side by side */
+
+.card-container {
+  width: 300px;
+  padding: 23px;
+}
+
+/* Style the counter cards */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  text-align: center;
+  background-color: #fff;
+  transition: 0.5s;
+  margin: 10px;
+  width: 100%;
+  /* cursor: pointer; */
+}
+.cardImg {
+  width: 50%;
+  margin: 10px auto;
+}
+
+/* Card top and bottom container */
+.card-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-top button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.left-button {
+  margin-left: 15px;
+  color: #2980b9;
+}
+.right-button {
+  margin-right: 15px;
+  color: red;
+}
+
+.card-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.time-container {
+  margin-left: 20px;
+}
+
+.date-container {
+  margin-right: 20px;
+}

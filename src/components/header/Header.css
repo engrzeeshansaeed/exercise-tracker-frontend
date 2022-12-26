@@ -1,0 +1,25 @@
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.header-btn {
+  color: black;
+  font-size: 18px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  margin: 10px;
+  /* margin-right: 20px; */
+}
+
+.header-btn:hover {
+  color: black;
+}
+
+.active {
+  background: #f1f1f1;
+}
